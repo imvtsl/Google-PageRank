@@ -21,7 +21,7 @@ The math (specifically, linear algebra) behind this algorithm is explained at be
 
 ## About this application
 
-This python program implements the primitive page rank algorithm leveraging Eigenvectors using the scipy library.
+This python program implements the primitive PageRank algorithm leveraging Eigenvectors using the scipy library.
 This program takes a matrix representing the significance of the web pages (Refer [this](https://www.rose-hulman.edu/~bryan/googleFinalVersionFixed.pdf)). It then computes the Eigenvector of the input matrix whose Eigenvalue is 1. The calculated Eigenvector represents the importance of each web page in the input matrix. The program prints the pages in decreasing order of their importance. 
 
 ### Prerequisites
